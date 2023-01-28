@@ -1,0 +1,14 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "Docs and blog content for Naeko's website.",
+  "author": "naeko-team",
+  "license": "MIT",
+  "scripts": {
+    "lint:fix": "markdownlint --fix **/*.md --ignore node_modules",
+    "lint": "markdownlint **/*.md --ignore node_modules"
+  },
+  "dependencies": {
+    "markdownlint-cli": "^0.33.0"
+  }
+}
