@@ -9,6 +9,7 @@
     "lint": "markdownlint **/*.md --ignore node_modules"
   },
   "dependencies": {
+    "husky": "^8.0.3",
     "markdownlint-cli": "^0.33.0"
   }
 }

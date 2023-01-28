@@ -1,9 +1,11 @@
 lockfileVersion: 5.4
 
 specifiers:
+  husky: ^8.0.3
   markdownlint-cli: ^0.33.0
 
 dependencies:
+  husky: 8.0.3
   markdownlint-cli: 0.33.0
 
 packages:
@@ -55,6 +57,12 @@ packages:
       inherits: 2.0.4
       minimatch: 5.1.6
       once: 1.4.0
+    dev: false
+
+  /husky/8.0.3:
+    resolution: {integrity: sha512-+dQSyqPh4x1hlO1swXBiNb2HzTDN1I2IGLQx1GrBuiqFJfoMrnZWwVmatvSiO+Iz8fBUnf+lekwNo4c2LlXItg==}
+    engines: {node: '>=14'}
+    hasBin: true
     dev: false
 
   /ignore/5.2.4:
