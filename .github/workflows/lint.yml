@@ -28,7 +28,7 @@ jobs:
       - name: Get pnpm store directory
         id: pnpm-cache
         run: echo "::set-output name=pnpm_cache_dir::$(pnpm store path)"
-      - uses: actions/cache@704facf57e6136b1bc63b828d79edcd491f0ee84 # v3
+      - uses: actions/cache@2c8a9bd7457de244a408f35966fab2fb45fda9c8 # v6
         name: Setup pnpm cache
         with:
           path: ${{ steps.pnpm-cache.outputs.pnpm_cache_dir }}
